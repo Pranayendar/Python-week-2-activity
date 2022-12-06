@@ -1,0 +1,4 @@
+#lecture 67 MODIFY THE NUMBER GUESSING GAME 
+
+import random
+wining_number = random.randint(1,100)
