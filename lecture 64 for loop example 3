@@ -1,0 +1,8 @@
+#lecture 65 for loop example 3
+
+name = input("enter your name: ")
+temp = ""
+for i in range(0, len(name)): #can write range(len(name)) takes from 0 as default
+    if name[i] not in temp:
+        print(f"{name[i]}: {name.count(name[i])}")
+        temp += name[i]
