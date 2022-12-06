@@ -1,0 +1,15 @@
+#lecture 64 for loop examples 2
+#logic
+#num = "1237" , lenght = 4 
+#int(num[0]) --->1
+#int(num[1]) --->2
+#int(num[2]) --->3
+#int(num[3]) --->7
+#i --->0 to 3
+
+
+total = 0
+num = input("enter a number: ")
+for i in range(0,len(num)):
+    total += int(num[i])
+print(total)
