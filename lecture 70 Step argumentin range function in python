@@ -1,0 +1,10 @@
+#lecture 70 Step argumentin range function in python
+ 
+ #for i in range(1,11):
+     #print(i)
+
+for i in range(0,11,2):#prints all number btw 1 and 10 with interval of 2 numbers
+    print(i)
+    
+for n in range(10,0,-1):#in this -1 is the step argument in range function
+    print(n)
