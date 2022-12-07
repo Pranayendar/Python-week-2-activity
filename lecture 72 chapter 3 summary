@@ -1,0 +1,40 @@
+#lecture 72 chapter 3 summary
+
+#if statement
+name = "pranay"
+if name == "pranay" or name == "Pranay":
+    print("you are pranay")
+elif name == "chintu" or name == "Chintu":
+    print("you are not chintu")
+else:
+    print("you are not pranay or chintu")
+    
+
+#while  loop
+
+#i = 0 
+#while i < 10:
+ #   print(i)
+  #  i =+ 1
+  
+  
+#for loop 
+#for i in range(1,11,2):
+ #    print(i)
+
+#for i in "pranay":
+#     print(i)
+#for loop in string
+
+#break keyword
+#for i in range(1,11):
+#    if i ==5:
+ #       break
+  #  print(i)
+  
+  
+#continue keyword
+#for i in range(1,11):
+ #   if i == 5:
+  #      continue
+ #   print(i)
