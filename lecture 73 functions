@@ -1,0 +1,22 @@
+#lecture 73 functions
+#name="pranay"
+#print(len(name))
+
+#def keyword is to define a funtion
+
+def add_two(num1,num2):#anything thing can be written in place of a and b
+    return num1+num2
+    
+#total = add_two(10,4)
+#print(total)
+#can also print in below given way
+#print(add_two(5,4))
+
+#x = int(input("enter 1st number : "))
+#y = int(input("enter 2nd number : "))
+#total = add_two(x,y)
+#print(total)
+
+first_name = input("type first name: ")
+last_name = input("type last name: ")
+print(add_two(first_name,last_name))
