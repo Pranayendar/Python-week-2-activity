@@ -1,0 +1,21 @@
+#lecture 88 delete data from a list
+#pop is used to delete the last element from list
+#fruits = ["mango", "orange", "banana", "kiwi"]
+#pop method
+#fruits.pop()#if we pass a position of a element it will delete the positioned element
+#print(fruits)
+
+#del operator
+#fruits = ["mango", "orange", "banana", "kiwi"]
+#del fruits[1]
+#print(fruits)
+
+
+#remove
+fruits = ["mango", "orange", "banana", "kiwi"]
+fruits.remove("kiwi")
+print(fruits)
+
+
+#to add elements we use  append, extend, insert
+#to delete we use pop, del, remove
