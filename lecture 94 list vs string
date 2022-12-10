@@ -1,0 +1,14 @@
+#lecture 94 list vs string 
+
+#strings are immutable
+#lists are mutable
+
+s = "string"
+t = s.title()#capitalizes the 1st letter
+print(t)
+
+
+l = ["word1", "word2", "word3"]
+l.pop()#removes the last element in the list
+l.append("word4")#to add new element to list
+print(l)
