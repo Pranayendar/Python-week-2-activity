@@ -1,0 +1,8 @@
+#Lecture 98: Chapter 5 : Exercise 1
+
+#define a function which will take list containing numberd as input
+#and return list containing square of every element
+
+#example
+#numbers = [1,2,3,4]
+#square_list(numbers) ----> return ----> [1,4,9,16]
