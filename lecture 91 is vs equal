@@ -1,0 +1,9 @@
+#lecture 91 is vs equal
+#compare lists 
+#== ,is
+
+numbers1 = [1, 2, 3, 4, 5, 7, 8, 9, 0]
+numbers2 = [2, 5, 7, 9, 1, 0]
+numbers3 = [1, 2, 3, 4, 5, 7, 8, 9, 0]
+print(numbers1 == numbers3)#== checks wheather the values of lists are same
+print(numbers1 is numbers3)#is checks wheather the lists are in same memory or not 
