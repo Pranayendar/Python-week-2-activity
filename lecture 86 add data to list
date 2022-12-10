@@ -1,0 +1,10 @@
+#lecture 86 add data to list
+
+fruits = ["grapes", "apple"]
+fruits.append("mango")#if we use append word will be added at the last 
+print(fruits)
+
+fruit = []
+fruit.append("mango")
+fruit.append("ornage")
+print(fruit)
