@@ -1,0 +1,13 @@
+#Lecture 92: join and split method 
+
+#split method
+#convert string to list
+user_info = "pranay, 143".split(",")
+print(user_info)
+name, age = "chintu, 19".split()
+print(name, age)
+
+#join method 
+#convert list to string
+user_intro = ["pranay", 143]
+print(",".join(user_info))
