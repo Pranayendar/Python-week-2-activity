@@ -1,0 +1,8 @@
+#Lecture 89:In keyword with list
+
+#to check wheater the elements are present in the list or not
+fruits = ["apple", "kiwi", "ornage", "banana"]
+if "apple" in fruits:
+    print("apple is present")
+else:
+    print("apple is not present")
