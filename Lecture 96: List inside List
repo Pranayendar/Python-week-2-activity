@@ -1,0 +1,17 @@
+#Lecture 96: List inside List
+
+#list inside a list
+matrix = [[1, 2, 3], [4,  5, 6], [7, 8, 9]]#list inside a list is 2D list
+#3 items --> 3 list
+print(matrix[0])#can print any set with mentioning their position in the list
+
+for sublist in matrix:
+    for i in sublist:
+        print(i)
+        
+        
+print(matrix[2][0])# to print a specific element inside a 2D list or 3D list
+
+s = "string"
+print(type(s))
+print(type(matrix))
