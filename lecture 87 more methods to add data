@@ -1,0 +1,14 @@
+#lecture 87 more methods to add data
+
+
+#extend
+fruits1 = ["mango", "orange"]
+#fruits.insert(2, "grapes")
+#print(fruits1)
+
+fruits2 = ["apple", "mango"]
+#fruits = fruits1 + friuts2
+#print(fruits)
+fruits1.extend(fruits2)#if we use append it will print a list inside a list
+print(fruits1)
+print(fruits2)
