@@ -1,0 +1,15 @@
+#lecture 85 intro to list 
+
+numbers = [1,2,3,4]
+print(numbers)
+print(numbers[1])#to access a perticular element
+
+words = ["word1", "word2", "word3"]
+print(words)
+print(words[:2])#slicing , slicing is very important
+
+mixed = [1,2,3,4, "one", "two", "three", 2.3, None]
+print(mixed)
+
+mixed[1:] = ["three", "four"]
+print(mixed)
