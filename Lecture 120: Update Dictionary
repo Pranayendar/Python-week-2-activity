@@ -1,0 +1,14 @@
+#Lecture 120: Update Dictionary
+
+user_info = {
+    "name" : "pranay",
+    "age" : 19,
+    "fav_movie" : ["aha", "rana"],
+    "fav-tunes" : ["awakening", "fairy tales"],
+}
+
+more_info = {"state" : "haryana", "hobbies" : ["coding", "reading", "guitar"]
+
+user_info.update(more_info)
+
+print(user_info)
