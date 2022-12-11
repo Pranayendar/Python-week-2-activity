@@ -1,0 +1,19 @@
+#Lecture 116: Chapter 6 Summary
+
+#tuples
+#tuples are immutable
+#tuples are ordered collections of items
+#tuples can store any data type
+#you cannot change (add or delete) values from  tuple once it created
+#but can add , delete data from list which is present inside tuples
+
+mixed = (1,2,3,4,5,"six")
+#no append , no pop, no insert ,no del , no extend 
+#only count and index
+
+#functions 
+#max(), min(), sum
+
+mixed2 = (1,2,3,4,5)
+mixed2[5].pop1()
+print(mixed2)
