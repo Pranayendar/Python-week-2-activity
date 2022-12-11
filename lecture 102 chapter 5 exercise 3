@@ -1,0 +1,6 @@
+#lecture 102 chapter 5 exercise 3
+
+#define a function that take list of words as argument and return list with reverse of everyy element in thh list 
+
+#example
+# ["abc", "tuv", "xyz"] ---->  ["cba", "vut", "zyx"]
