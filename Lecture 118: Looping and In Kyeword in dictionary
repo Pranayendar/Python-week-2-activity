@@ -1,0 +1,45 @@
+#Lecture 118: Looping and In Kyeword in dictionary
+
+# in keyword and interactions in dictionary
+
+user_info ={
+    "name" : "pranay",
+    "age" : 19,
+    "fav_movies" : ["coco", "kimi no na wa"],
+    "fav_tunes" : ["awakening", "fairy tale"],
+}
+
+#check if value exist in dictionary
+#if "pranay" in user_info.values():
+#    print("present")
+#else:
+#    print("not present")
+    
+    
+
+#for i in user_info.values()
+#    print(i)
+    
+#values method
+#user_info_values = user_info.values()
+#print(user_info_vanlues)
+#print(type(user_info_values))
+
+#user_info_keys = user_info.keys()
+#print(user_info_key)
+#print(type(user_info_key))
+
+#loop in dictionaries
+#for i in user_info:
+#   print(user_info)
+
+#item method
+#user_items = user_info.items()
+#print(user_items)
+#print(type(user_items))
+
+#uses of item method
+
+for key, value in user_info.items():
+    #print(f"key is {key} and value is {value}")
+    print(key)
