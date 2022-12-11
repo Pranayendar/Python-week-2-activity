@@ -1,0 +1,49 @@
+#Lecture 117: Intro to dictionaries 
+
+#dictionaries intro 
+# Q - why we use dictoionarie?
+# A - because of limitations of lists, lists are not enough to represent
+# real data
+
+#example
+user = ["pranay" , 24, ["coco", "chocolate"], ["awaken", "fairy tale"]]
+#this list contains user name, age fav movies , fav tunes
+#you can do this but this is not a good way to do this 
+
+# Q - what are dictionaries
+#A - order collections of data in key : value pair.
+
+#how to create dictonaries
+user = {"name" : "pranay" , "age" : "19"}
+#print(user)
+#print(type(user))
+print(user(0))
+
+#second methhod to create dictionary 
+user1 = dict(name = "pranay", age = "29")
+#print(user1)
+
+#how to access data from dictionaries
+#NOTE - there is no indexing because of unordered collections of data.
+#print(user["name"])
+#print(user["age"])
+
+#which type of data a dictionaries can store?
+#anything
+#numbers, strings, list, dictionaries
+
+user_info = {
+    "name" : "pranay",
+    "age" : "19",
+    "fav_movies" : ["coco", "kimi no na wa"],
+    "fav_tunes" : ["awakening", "fairy tale"]
+}
+#print(user_info["fav_movies"])
+
+
+#how to add data to empty dictionaries
+user_info2 = {}
+user_info2["name"] = "pranay"
+user_info2["age"] = 19
+
+print(user_info2)
