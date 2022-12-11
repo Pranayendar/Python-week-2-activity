@@ -1,0 +1,6 @@
+#Lecture 122: More about get() Method
+
+#more about get , two same keys in dictionaries
+user = {"name":"pranay", "age":22, "age" : 20}
+#print(user.get("names", "not found ! "))
+print(user)
