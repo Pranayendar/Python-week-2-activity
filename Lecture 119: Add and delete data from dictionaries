@@ -1,0 +1,22 @@
+#Lecture 119: Add and delete data from dictionaries
+
+user_info = {
+    "name" : "pranay",
+    "age" : 19,
+    "fav_movie" : ["aha", "rana"]
+    "fav-tunes" : ["awakening", "fairy tales"]
+}
+
+#how to add data
+#user_info["fav_song"] = ["song1", "song2"]
+#print(user_info)
+
+#pop method
+#popped_item = user_info.pop("fav_tunes")
+#print(f"popped item is {popped_item}")
+#print(user_info)
+
+#popitem method
+#popped_item = user_info.popitem()
+#print(user_info)
+#print((popped_item))
